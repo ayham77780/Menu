@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+<body>
+
+<div id="main">
+
+<div id="p1" class="page">
+	<h1 class="h1menu">Menu</h1>
+<img src="img/logo.png" class="logo">
+<img src="img/meat.png" class="menuimg">
+</div>
+
+<div class="page pages" id="page1">
+	
+	<h2 class="h2page">Main</h2>
+	<div class="part1">
+	<ul class="list">
+		<li>Food Example 1 </li>
+		<li>Food Example 1 </li>
+		<li>Food Example 1 </li>
+		<li>Food Example 1 </li>
+		<li>Food Example 1 </li>
+		<li>Food Example 1 </li>
+		<li>Food Example 1 </li>
+		<li>Food Example 1 </li>
+	</ul>
+</div>
+<div class="part2">
+	<ul class="list">
+		<li>10$</li>
+		<li>10$</li>
+		<li>10$</li>
+		<li>10$</li>
+		<li>10$</li>
+		<li>10$</li>
+		<li>10$</li>
+		<li>10$</li>
+	</ul>
+</div>
+<div class="imgdiv2">
+		<img src="food/7.png">
+	</div>
+
+</div>
+
+<div class="page pages" id="page2">
+	<h2 class="h2page">Salads</h2>
+	<div class="part1">
+	<ul class="list">
+		<li>Food Example 1 </li>
+		<li>Food Example 1 </li>
+		<li>Food Example 1 </li>
+		
+	</ul>
+</div>
+<div class="part2">
+	<ul class="list">
+		<li>10$</li>
+		<li>10$</li>
+		<li>10$</li>
+		
+	</ul>
+</div>
+
+	<h2 class="h2page2">Drinks</h2>
+	<div class="part1">
+	<ul class="list">
+		<li>Food Example 1 </li>
+		<li>Food Example 1 </li>
+		<li>Food Example 1 </li>
+		<li>Food Example 1 </li>
+		
+	</ul>
+</div>
+<div class="part2">
+	<ul class="list">
+		<li>10$</li>
+		<li>10$</li>
+		<li>10$</li>
+		<li>10$</li>
+	</ul>
+</div>
+
+	<div class="imgdiv4">
+		<img src="food/4.png">
+	</div>
+</div>
+
+<div id="page3" class="page pages">
+	
+	<h2 class="h2page">Deserts</h2>
+	<div class="part1">
+	<ul class="list">
+		<li>Food Example 1 </li>
+		<li>Food Example 1 </li>
+		<li>Food Example 1 </li>
+		<div class="imgdiv1">
+		<img src="food/8.png">
+	</div>
+		
+	</ul>
+</div>
+
+<div class="part2">
+	<ul class="list">
+		<li>10$</li>
+		<li>10$</li>
+		<li>10$</li>
+	</ul>
+</div>
+
+<div class="special">
+	<h3>Special Offer!!!</h3>
+	<h4>xxxxxxx xxx xxx x xxxxxxx xxxxx xxxxxx xxxxxxxx xxxxxx</h4>
+</div>
+
+<div class="contact">
+	
+	<h4><i class="fa fa-map-marker"></i> : xxxx, xxxxx, xxxxx</h4>
+	<h4><i class="fa fa-phone"></i> : xxx-xxx-xxx</h4>
+
+</div>
+</div>
+
+<div id="btndiv">
+	<button id="left"><i class="fa fa-arrow-left"></i></button>
+	<button id="right"><i class="fa fa-arrow-right"></i></button>
+</div>
+
+</div>
+
+<script type="text/javascript">
+	const cover = document.getElementById('p1');
+	const page4 = document.getElementById('page4');
+	const page2 = document.getElementById('page2');
+	const page3 = document.getElementById('page3');
+	const btnleft = document.getElementById('left');
+	const btnright = document.getElementById('right');
+    
+    let c1 = cover.style.opacity = '1';
+    let p1 = page1.style.opacity = '0';
+    let p2 = page2.style.opacity = '0';
+    let p3 = page3.style.opacity = '0';
+
+    
+
+	btnright.addEventListener('click', function() {
+	if (c1=='1') {
+    cover.style.opacity = '0';
+    cover.style.zindex = '-6';
+    page1.style.zindex = '3';
+    page1.style.opacity = '1';
+    c1=0;
+    p1=1;
+}
+
+else if (c1=='0' && p1=='1'){ 
+    page2.style.opacity = '1';
+    page2.style.zindex = '4';
+    page1.style.zindex = '0';
+    page1.style.opacity = '-6';
+    p1=0;
+    p2=1;
+
+}
+
+
+else if (p1=='0' && p2=='1'){ 
+    page3.style.opacity = '1';
+    page3.style.zindex = '4';
+    page2.style.zindex = '0';
+    page2.style.opacity = '-6';
+    p2=0;
+    p3=1;
+
+}
+
+else if (c1=='0' && p3=='1'){ 
+    page3.style.opacity = '0';
+    page3.style.zindex = '-4';
+    cover.style.zindex = '8';
+    cover.style.opacity = '1';
+    c1=1;
+    p3=0;
+
+}
+
+
+
+	});
+
+
+
+	btnleft.addEventListener('click', function() {
+	if (p1=='1') {
+    cover.style.opacity = '1';
+    cover.style.zindex = '+6';
+    page1.style.zindex = '-5';
+    page1.style.opacity = '0';
+    c1=1;
+    p1=0;
+}
+
+else if (p1=='0' && p2=='1'){ 
+    page2.style.opacity = '0';
+    page2.style.zindex = '-7';
+    page1.style.zindex = '7';
+    page1.style.opacity = '1';
+    p1=1;
+    p2=0;
+
+}
+
+
+else if (p2=='0' && p3=='1'){ 
+    page3.style.opacity = '0';
+    page3.style.zindex = '-9';
+    page2.style.zindex = '1';
+    page2.style.opacity = '7';
+    p2=1;
+    p3=0;
+
+}
+
+else if (c1=='1' && p3=='0'){ 
+    page3.style.opacity = '1';
+    page3.style.zindex = '9';
+    cover.style.zindex = '-9';
+    cover.style.opacity = '0';
+    c1=0;
+    p3=1;
+
+}
+
+
+	});
+
+
+
+</script>
+
+</body>
+</html>
