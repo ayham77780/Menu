@@ -60,6 +60,7 @@ body {
 	color: white;
 	margin-top: 1%;
 	position: absolute;
+	top: 24%;
     transition: 1.7s;
     opacity: 0;
     z-index: -99;
@@ -203,8 +204,8 @@ padding-left: 80%;
 #btndiv {
 	position: absolute;
 	left: 30%;
-	top: 90%;
-	width: 40%;
+	top: 10%;
+	width: 50%;
 
 }
 
@@ -229,25 +230,26 @@ padding-left: 80%;
 
 @media(max-width: 768px) {
 	.page {
-		transform: scale(0.8);
+		transform: scale(0.99);
 	}
 }
 
 @media(max-width: 768px) {
 	.page {
 		left: 0.5%;
+		top: 20%;
 	}
 }
 
 @media(max-width: 768px) {
 	#btndiv {
-		top: 3%;
+		top: 10%;
 		left: 20%;
 	}
 }
 
 @media(max-width: 768px) {
 	#btndiv button {
-		font-size: 20px;
+		font-size: 25px;
 	}
 }

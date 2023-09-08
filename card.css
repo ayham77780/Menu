@@ -16,7 +16,7 @@ body {
   perspective: 1000px;
 margin-right: auto;
 margin-left: auto;
-margin-top: 6%;
+margin-top: 17%;
 }
 
 
@@ -253,24 +253,11 @@ z-index: 1;
 	}
 }
 
-@media(max-width: 768px) {
-	#btndiv {
-		top: 3%;
-		left: 20%;
-	}
-}
-
-@media(max-width: 768px) {
-	#btndiv button {
-		font-size: 20px;
-	}
-}
-
 
 
 @media(max-width: 768px) {
   .container {
     margin-left: 25%;
-    transform: scale(0.7);
+    transform: scale(0.8);
   }
 }
