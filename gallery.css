@@ -201,13 +201,17 @@ padding-left: 80%;
 	opacity: 0;
 }
 
-#btndiv {
-	position: absolute;
-	left: 30%;
-	top: 10%;
+	#btndiv {
+	diplay: block;
+	margin-top: 30%;
 	width: 50%;
+	margin-right: auto;
+	margin-left: 40%;
+	transform: scale(2.3);
 
 }
+
+
 
 
 #btndiv button {
@@ -228,29 +232,9 @@ padding-left: 80%;
 }
 
 
-@media(max-width: 768px) {
-	.page {
-		transform: scale(1.4);
-	}
-}
-
-@media(max-width: 768px) {
-	.page {
-		left: 0.5%;
-		top: 20%;
-	}
-}
-
-@media(max-width: 768px) {
-	#btndiv {
-		top: 10%;
-		left: 20%;
-	}
-}
-
-@media(max-width: 768px) {
-	#btndiv button {
-		font-size: 25px;
-		transform: scale(1.4);
-	}
+#main {
+	transform: scale(2.9);
+	position: absolute;
+	top:40%;
+	left: 35%;
 }
