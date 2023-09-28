@@ -250,6 +250,7 @@ z-index: 1;
 @media(max-width: 768px) {
 	.page {
 		left: 0.5%;
+		transform: scale(1.4);
 	}
 }
 
