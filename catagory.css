@@ -284,19 +284,7 @@ padding-left: 80%;
 
 
 
-@media(max-width: 768px) {
-	.page {
-		left: 2%;
-		top: 20%;
-	}
-}
 
-@media(max-width: 768px) {
-	#btndiv {
-		top: 10%;
-		left: 20%;
-	}
-}
 
 @media(max-width: 768px) {
 	#btndiv button {
