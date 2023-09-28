@@ -247,7 +247,11 @@ z-index: 1;
 }
 
 
-* {
+.page {
+transform: scale(1.3);	
+}
+
+.container {
 transform: scale(1.3);	
 }
 
