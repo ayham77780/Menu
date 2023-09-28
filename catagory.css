@@ -301,7 +301,7 @@ padding-left: 80%;
 
 @media(max-width: 768px) {
 	#btndiv {
-		top: 90%;
+		top: 10%;
 		left: 20%;
 	}
 }
