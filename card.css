@@ -11,8 +11,8 @@ body {
 
 
 .container {
-  width: 350px;
-  height: 690px;
+  width: 650px;
+  height: 850px;
   perspective: 1000px;
 margin-right: auto;
 margin-left: auto;
@@ -47,6 +47,7 @@ margin-top: 17%;
 	font-family: cursive;
 	text-shadow: 0 0 3px red;
 	font-weight: bold;
+	font-size: 30px;
 }
 
 .menuimg {
@@ -70,8 +71,8 @@ margin-top: 17%;
 	background-size: 100%;
 	margin-right: auto;
 	left: 35%;
-	width: 350px;
-	height: 690px;
+	width: 600px;
+	height: 800px;
 	text-align: center;
 	display: block;
 	color: white;
@@ -95,6 +96,7 @@ margin-top: 17%;
 	text-shadow: 0 0 3px yellow;
 	border-bottom: 0.5px solid grey;
 	width: 50%;
+	font-size: 30px;
 }
 
 .h2page2 {
@@ -108,13 +110,14 @@ margin-top: 17%;
 	text-shadow: 0 0 3px yellow;
 	border-bottom: 0.5px solid grey;
 	width: 50%;
+	font-size: 30px;
 }
 
 .list {
 	display: block;
 	text-decoration: none;
-	width: 150px;
-	font-size: 13px;
+	width: 200px;
+	font-size: 19px;
 	list-style: none;
 	padding-right: 100px;
 }
@@ -126,6 +129,7 @@ ul li {
 	font-family: Noto fonts;
 	text-shadow: 0 0 10px red;
 	font-weight: bold;
+	font-size: 19px;
 
 }
 
