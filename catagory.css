@@ -202,10 +202,11 @@ padding-left: 80%;
 
 #btndiv {
 	diplay: block;
-	margin-top: 20%;
+	margin-top: 30%;
 	width: 50%;
 	margin-right: auto;
-	margin-left: auto;
+	margin-left: 40%;
+	transform: scale(2.3);
 
 }
 
@@ -275,10 +276,10 @@ padding-left: 80%;
 
 
 #main {
-	transform: scale(2.5);
+	transform: scale(2.9);
 	position: absolute;
 	top:40%;
-	left: 40%;
+	left: 35%;
 }
 
 
