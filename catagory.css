@@ -202,11 +202,11 @@ padding-left: 80%;
 }
 
 #btndiv {
-	position: absolute;
-	left: 30%;
-	top: 15%;
+	diplay: block;
+	margin-top: 50%;
 	width: 50%;
-	margin-bottom: 10%;
+	margin-right: auto;
+	margin-left: auto;
 
 }
 
