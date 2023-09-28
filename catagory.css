@@ -58,9 +58,9 @@ body {
 	text-align: center;
 	display: block;
 	color: white;
-	margin-top: 10%;
+	margin-top: 20%;
 	position: absolute;
-	top: 40%;
+	top: 70%;
     transition: 1.1s;
     opacity: 0;
     z-index: -99;
@@ -204,9 +204,9 @@ padding-left: 80%;
 #btndiv {
 	position: absolute;
 	left: 30%;
-	top: 10%;
+	top: 15%;
 	width: 50%;
-	margin-bottom: 15%;
+	margin-bottom: 20%;
 
 }
 
@@ -276,7 +276,7 @@ padding-left: 80%;
 
 
 #main {
-	transform: scale(1.8);
+	transform: scale(2);
 }
 
 
