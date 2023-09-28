@@ -279,15 +279,23 @@ padding-left: 80%;
 	transform: scale(2.5);
 }
 
+.page {
+	top:50%;
+	margin-top:25%;
+	left: 5%;
+	
+}
 
-
+#btndiv {
+	top: 10%;
+}
 
 
 
 @media(max-width: 768px) {
 	.page {
 		left: 2%;
-		top: 35%;
+		top: 40%;
 	}
 }
 
@@ -301,6 +309,6 @@ padding-left: 80%;
 @media(max-width: 768px) {
 	#btndiv button {
 		font-size: 25px;
-		transform: scale(1.4);
+		
 	}
 }
