@@ -58,9 +58,9 @@ body {
 	text-align: center;
 	display: block;
 	color: white;
-	margin-top: 20%;
+	margin-top: 10%;
 	position: absolute;
-	top: 70%;
+	top: 30%;
     transition: 1.1s;
     opacity: 0;
     z-index: -99;
@@ -206,7 +206,7 @@ padding-left: 80%;
 	left: 30%;
 	top: 15%;
 	width: 50%;
-	margin-bottom: 20%;
+	margin-bottom: 10%;
 
 }
 
@@ -276,28 +276,24 @@ padding-left: 80%;
 
 
 #main {
-	transform: scale(2);
+	transform: scale(2.5);
 }
+
+
 
 
 
 
 @media(max-width: 768px) {
 	.page {
-		transform: scale(1.4);
-	}
-}
-
-@media(max-width: 768px) {
-	.page {
-		left: 0.5%;
-		top: 20%;
+		left: 2%;
+		top: 35%;
 	}
 }
 
 @media(max-width: 768px) {
 	#btndiv {
-		top: 10%;
+		top: 15%;
 		left: 20%;
 	}
 }
