@@ -250,7 +250,9 @@ z-index: 1;
 @media(max-width: 768px) {
 	.page {
 		left: 0.5%;
-		transform: scale(1.4);
+                width: 600px;
+		height: 750px;
+		font-size: 29px;
 	}
 }
 
@@ -259,6 +261,6 @@ z-index: 1;
 @media(max-width: 768px) {
   .container {
     margin-left: 25%;
-    transform: scale(1.4);
+    
   }
 }
