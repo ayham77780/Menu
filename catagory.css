@@ -52,15 +52,14 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-right: auto;
-	left: 37%;
+	left: 90%;
 	width: 350px;
 	height: 690px;
 	text-align: center;
 	display: block;
 	color: white;
-	margin-top: 20%;
 	position: absolute;
-	top: 60%;
+	top: 70%;
     transition: 1.1s;
     opacity: 0;
     z-index: -99;
@@ -280,9 +279,6 @@ padding-left: 80%;
 }
 
 
-.page {
-	top:70;
-}
 
 
 
