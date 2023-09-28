@@ -58,7 +58,7 @@ body {
 	text-align: center;
 	display: block;
 	color: white;
-	margin-top: 1%;
+	margin-top: 10%;
 	position: absolute;
 	top: 40%;
     transition: 1.1s;
@@ -206,6 +206,7 @@ padding-left: 80%;
 	left: 30%;
 	top: 10%;
 	width: 50%;
+	margin-bottom: 15%;
 
 }
 
@@ -257,7 +258,7 @@ padding-left: 80%;
 	color: white;
 	background: #e59e34;
 	transition: 1s;
-	margin-top: 17%;
+	margin-top: 12%;
 	font-size: 20px;
 	width: 50%;
 	border-radius: 25%;
@@ -275,7 +276,7 @@ padding-left: 80%;
 
 
 #main {
-	transform: scale(1.6);
+	transform: scale(1.8);
 }
 
 
