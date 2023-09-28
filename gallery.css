@@ -230,7 +230,7 @@ padding-left: 80%;
 
 @media(max-width: 768px) {
 	.page {
-		transform: scale(0.99);
+		transform: scale(1.4);
 	}
 }
 
@@ -251,5 +251,6 @@ padding-left: 80%;
 @media(max-width: 768px) {
 	#btndiv button {
 		font-size: 25px;
+		transform: scale(1.4);
 	}
 }

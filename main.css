@@ -30,7 +30,7 @@ body {
 	text-decoration: none;
 	border: none;
 	font-size: 25px;
-	margin-top: 11%;
+	margin-top: 7%;
 	background: #e59e34;
 	border-radius: 40%;
 	transition: 0.5s;
@@ -40,4 +40,17 @@ body {
 
 .div1 a:hover {
 	background: black;
+}
+
+
+@media(max-width: 768px) {
+	.div1 {
+		transform: scale(1.4);
+	}
+}
+
+@media(max-width: 768px) {
+	.div1 a {
+		transform: scale(1.4);
+	}
 }
