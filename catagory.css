@@ -274,6 +274,10 @@ padding-left: 80%;
 }
 
 
+#main {
+	transform: scale(1.4);
+}
+
 @media(max-width: 768px) {
 	.page {
 		transform: scale(1.4);
