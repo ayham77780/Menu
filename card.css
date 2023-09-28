@@ -11,8 +11,8 @@ body {
 
 
 .container {
-  width: 600px;
-  height: 790px;
+  width: 350px;
+  height: 690px;
   perspective: 1000px;
 margin-right: auto;
 margin-left: auto;
@@ -47,7 +47,6 @@ margin-top: 17%;
 	font-family: cursive;
 	text-shadow: 0 0 3px red;
 	font-weight: bold;
-	font-size: 29px;
 }
 
 .menuimg {
@@ -71,8 +70,8 @@ margin-top: 17%;
 	background-size: 100%;
 	margin-right: auto;
 	left: 35%;
-	width: 600px;
-	height: 790px;
+	width: 350px;
+	height: 690px;
 	text-align: center;
 	display: block;
 	color: white;
@@ -96,7 +95,6 @@ margin-top: 17%;
 	text-shadow: 0 0 3px yellow;
 	border-bottom: 0.5px solid grey;
 	width: 50%;
-	font-size: 29px;
 }
 
 .h2page2 {
@@ -110,14 +108,13 @@ margin-top: 17%;
 	text-shadow: 0 0 3px yellow;
 	border-bottom: 0.5px solid grey;
 	width: 50%;
-	font-size: 29px;
 }
 
 .list {
 	display: block;
 	text-decoration: none;
 	width: 150px;
-	font-size: 15px;
+	font-size: 13px;
 	list-style: none;
 	padding-right: 100px;
 }
@@ -253,9 +250,8 @@ z-index: 1;
 @media(max-width: 768px) {
 	.page {
 		left: 0.5%;
-                width: 600px;
+		width: 600px;
 		height: 750px;
-		font-size: 29px;
 	}
 }
 
@@ -264,6 +260,5 @@ z-index: 1;
 @media(max-width: 768px) {
   .container {
     margin-left: 25%;
-    
   }
 }
